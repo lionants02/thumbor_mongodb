@@ -15,6 +15,8 @@ MONGO_STORAGE_SERVER_DB = 'images' #MongoDB database name, inside it will be cre
 Url should look like: https://thumbor-server.domain/secret/fit-in/400x400/5756fcdd7d75bb07c378d9e7
 where `5756fcdd7d75bb07c378d9e7` is `_id` of file saved in GridFS
 
+Demo by docker https://github.com/lionants02/ThumborMongoDocker
+
 Tested on Ubuntu 16.04 with:
 - Thumbor 6.0.1
 - MongoDB 3.2.7
